@@ -1,5 +1,5 @@
 
- require ("prompt-sync")
+const prompt= require ("prompt-sync")()
   let apiKey = "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"
 
 async function fetchStockInfo(name){
@@ -35,4 +35,3 @@ async function fetchAI(chat){
     return data;
   }
   //"Hello, What investment would you like to look at? Enter the symbol
-const 
